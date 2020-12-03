@@ -1,5 +1,4 @@
-declare -r output='0b9aa6a92e31        simplifierag/appserver:v5_5_126_129   "/opt/simplifier/binΓÇª"   6 days ago          Up 6 days           8080/tcp, 8090/tcp
-              simplifier' 
+declare -r output=`docker container ls`
 #Parsing Arguments (Array)
 declare -a id=($@)
 
