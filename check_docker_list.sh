@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 declare -r output=`docker container ls`
-=======
-declare -r output='zzzzzzzzxxxxxxxxx' 
->>>>>>> 9967130f88ef0716e1fe6ba562d45abe13411b38
 #Parsing Arguments (Array)
 declare -a id=($@)
 
