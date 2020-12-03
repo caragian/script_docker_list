@@ -1,4 +1,4 @@
-declare -r output=`docker container ls`
+declare -r output=`/usr/bin/sudo /usr/bin/docker container ls`
 #Parsing Arguments (Array)
 declare -a id=($@)
 
